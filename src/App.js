@@ -14,7 +14,8 @@ function App() {
   const {theme} = useTheme();
 
   return (
-    <ThemeProvider theme={theme}>
+    <>
+      <ThemeProvider theme={theme}>
       <GlobalStyles/>
       <ToastContainer />
       <Routes>
@@ -23,6 +24,7 @@ function App() {
         <Route path='/compare/:username' element={<ComparePage/>} />
       </Routes>
     </ThemeProvider>
+    </>
   );
 }
 
