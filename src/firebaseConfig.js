@@ -3,6 +3,7 @@ import 'firebase/compat/auth';
 import 'firebase/compat/firestore';
 
 console.log(process.env.REACT_APP_API_KEY);
+//firebase - typing
 const firebaseConfig = {
     apiKey: "AIzaSyBAruPycg5wBwTZKkad1StLIzpoZ3UZaGo",
     authDomain: "typing-4551c.firebaseapp.com",
